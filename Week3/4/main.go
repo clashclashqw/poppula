@@ -7,8 +7,8 @@ func main() {
 	var name string
 	var age int
 	var height float32
-	var height float64
-	n, err := fmt.Scan(&name, &age, &weigth, &heihgt)
+	var weigth float64
+	n, err := fmt.Scan(&name, &age, &weigth, &height)
 	fmt.Println(name, age, weigth, height)
 	fmt.Println(`number of argument `, n)
 	fmt.Println(`error `, err)
